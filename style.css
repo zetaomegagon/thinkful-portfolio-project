@@ -1,30 +1,44 @@
-/* background, color, font-family, font-size,
- * height, margin, padding, text-align
- */
+a:link { color: black; }
+a:visited { color: green; }
+a:hover { color: pink; }
+a:active { color: orange; }
 
-a:link {}
-a:active {}
-a:hover {}
-a:visited{}
+header, footer {
+  background-color: bisque;
+  padding: 10px;
+}
+
+body {
+  background-color: salmon;
+}
 
 header > div {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
-header > nav > a{
+.portrait {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.portrait-div {
+p, h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-.article-div {
-}
-
-article {
-}
-
-section {
+ol, ul {
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-
